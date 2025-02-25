@@ -1,2 +1,7 @@
-streamlit>=1.0
-openai>=0.10.0
+streamlit
+langchain
+langgraph
+langchain-openai
+langchain-community
+faiss-cpu
+typing-extensions
