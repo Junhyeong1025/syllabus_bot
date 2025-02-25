@@ -126,6 +126,8 @@ def main():
                 os.environ["OPENAI_API_KEY"] = api_key
 
                 st.session_state.api_key_submitted = True
+
+                st.success("✅ API Key submitted successfully! You can now use the chatbot.")
             else:
                 st.warning("Please input your API key")
 
